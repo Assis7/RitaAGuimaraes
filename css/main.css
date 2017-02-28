@@ -1,0 +1,639 @@
+/* RESET DA PAGINA */
+
+html, body, div, span, applet, object, iframe, table, caption,
+tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: "Montserrat", sans-serif;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+}
+:focus {
+    outline: 0;
+}
+body {
+    background: white;
+    line-height: 1;
+    color: black;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+/* FIM DO RESET DA PAGINA */
+
+
+/* CSS HTML */
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.moblie-nav {
+    display: none;
+}
+
+header {
+    height: 59.35vh;
+    background-image: url('../images/fundo_header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+header .logo {
+    margin-top: 1.95vh;
+    float: left;
+    overflow: hidden;
+}
+
+header nav ul {
+    float: right;
+    margin-top: 2.83vh;
+    overflow: hidden;
+}
+
+header nav ul a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 1.11vw;
+}
+
+header h1, h2 {
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+}
+
+header h1 {
+    color: white;
+    margin-top: 24.31vh;
+    margin-bottom: 15px;
+    font-size: 48px;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 26px;
+    color: #E7BA79;
+}
+
+/* ------------ SECTION ATUAÇÃO ------------ */
+
+.atuacao {
+    overflow: hidden;
+}
+
+.atuacao h1 {
+    overflow: hidden;
+    color: #E7BA79;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 6.25vh;
+    text-transform: uppercase;
+}
+
+.itens {
+    overflow: hidden;
+    text-align: center;
+}
+.civil, .trabalhista, .previdenciario {
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 62px;
+}
+
+.trabalhista {
+    padding: 0 20vw 0 20vw;
+}
+
+.civil img {
+    background-color: #22313F;
+    width: 76px;
+    height: 66px;
+    padding: 28px 35px 28px 35px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.trabalhista img {
+    background-color: #22313F;
+    width: 72px;
+    height: 76px;
+    padding: 23px 38px 23px 38px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.previdenciario img {
+    background-color: #22313F;
+    width: 76px;
+    height: 74px;
+    padding: 24px 36px 24px 36px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.itens p, img, h1 {
+    overflow: hidden;
+}
+
+.itens-p {
+    font-size: 20px;
+}
+
+.itens-p-ultimo {
+    font-size: 20px;
+    margin-bottom: 74px;
+}
+
+.texto {
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    width: 53vw;
+    margin: 0 auto;
+}
+
+.texto p {
+    overflow: hidden;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+/* ------------ SECTION ESCRITÓRIO ------------ */
+
+.escritorio {
+    width: 100%;
+    height: 66vh;
+    background-image: url('../images/fundo_escritorio.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.escritorio h1 {
+    color: #E7BA79;
+    overflow: hidden;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 6.25vh;
+    text-transform: uppercase;
+}
+
+#img-escritorio {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 80px 0 0 162px;
+    float: left;
+}
+
+.texto_escritorio {
+    width: 630px;
+    height: 324px;
+    float: right;
+    overflow: hidden;
+    color: white;
+    margin: 150px 152px 0 0;
+    font-size: 20px;
+    text-indent: 80px;
+}
+
+.texto_escritorio p {
+    overflow: hidden;
+}
+
+/* ------------ SECTION CLIENTES ------------ */
+
+.clientes h1 {
+    color: #E7BA79;
+    overflow: hidden;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 6.25vh;
+    text-transform: uppercase;
+}
+
+.opinioes {
+    overflow: hidden;
+    text-align: center;
+}
+
+.opinioes p {
+    overflow: hidden;
+    margin-top: 75px;
+    font-size: 30px;
+}
+.cliente-1, .cliente-2, .cliente-3 {
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 75px;
+    text-align: center;
+    width: 270px;
+    height:500px;
+}
+
+.cliente-1 {
+    width: 270px;
+}
+
+.cliente-2 {
+    padding: 0 10vw 0 10vw;
+    width: 270px;
+}
+
+.cliente-3 {
+    width: 270px;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+/* RESPONSIVO */
+
+    /* LAPTOP PEQUENO */
+@media screen and (max-width: 1126px) and (min-width: 768px) {
+    .civil img {
+        background-color: #22313F;
+        width: 66px;
+        height: 56px;
+        padding: 23px 30px 23px 30px;
+        border-radius: 30px;
+        margin-bottom: 25px;
+    }
+
+    .trabalhista img {
+        background-color: #22313F;
+        width: 62px;
+        height: 66px;
+        padding: 18px 33px 18px 33px;
+        border-radius: 30px;
+        margin-bottom: 25px;
+    }
+
+    .previdenciario img {
+        background-color: #22313F;
+        width: 66px;
+        height: 64px;
+        padding: 19px 31px 19px 31px;
+        border-radius: 30px;
+        margin-bottom: 25px;
+    }
+
+    .trabalhista {
+        padding: 0 15vw 0 15vw;
+    }
+
+    #img-escritorio {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin: 61px 0 0 0px;
+        float: left;
+    }
+
+    .texto_escritorio {
+        width: 444px;
+        height: 324px;
+        float: right;
+        overflow: hidden;
+        color: white;
+        margin: 100px 0 0 0;
+        font-size: 16px;
+        text-indent: 80px;
+    }
+
+    /* ------------ SECTION CLIENTES ------------ */
+
+    .opinioes p {
+        overflow: hidden;
+        margin-top: 45px;
+        font-size: 25px;
+    }
+
+    .opinioes img {
+        width: 150px;
+        height: 150px;
+    }
+    .cliente-1, .cliente-2, .cliente-3 {
+        display: inline-block;
+        overflow: hidden;
+        margin-top: 75px;
+        text-align: center;
+        width: 150px;
+        height: 400px;
+    }
+
+    .cliente-1 {
+        width: 150px;
+    }
+
+    .cliente-2 {
+        padding: 0 10vw 0 10vw;
+        width: 150px;
+    }
+
+    .cliente-3 {
+        width: 150px;
+    }
+
+    
+}
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------- TABLET ---------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) and (min-width: 700px) {
+    .civil img {
+        background-color: #22313F;
+        width: 66px;
+        height: 56px;
+        padding: 23px 30px 23px 30px;
+        border-radius: 30px;
+        margin-bottom: 25px;
+    }
+
+    .trabalhista img {
+        background-color: #22313F;
+        width: 62px;
+        height: 66px;
+        padding: 18px 33px 18px 33px;
+        border-radius: 30px;
+        margin-bottom: 25px;
+    }
+
+    .previdenciario img {
+        background-color: #22313F;
+        width: 66px;
+        height: 64px;
+        padding: 19px 31px 19px 31px;
+        border-radius: 30px;
+        margin-bottom: 25px;
+    }
+
+    .trabalhista {
+        padding: 0 10vw 0 10vw;
+    }
+
+    #img-escritorio {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        left: 50%;
+        margin-left: -125px;
+        margin-top: 30px;
+        float: none;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .texto_escritorio {
+        width: 100%;
+        height: 324px;
+        overflow: hidden;
+        color: white;
+        margin: 30px 0 0 0;
+        font-size: 14px;
+        text-indent: 40px;
+        float: none;
+    }
+
+    .texto_escritorio p {
+        overflow: hidden;
+    }
+
+    /* ------------ SECTION CLIENTES ------------ */
+
+    .opinioes p {
+        overflow: hidden;
+        margin-top: 45px;
+        font-size: 20px;
+    }
+
+    .opinioes img {
+        width: 150px;
+        height: 150px;
+    }
+    .cliente-1, .cliente-2, .cliente-3 {
+        display: inline-block;
+        overflow: hidden;
+        margin-top: 75px;
+        text-align: center;
+        width: 150px;
+        height: 340px;
+    }
+
+    .cliente-1 {
+        width: 150px;
+    }
+
+    .cliente-2 {
+        padding: 0 7vw 0 7vw;
+        width: 150px;
+    }
+
+    .cliente-3 {
+        width: 150px;
+    }
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------ TELEFONE---------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+    .container {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .moblie-nav {
+        display: inherit;
+        float: right;
+        margin-top: 2.83vh;
+    }
+
+    .moblie-nav div {
+        height: 4px;
+        width: 30px;
+        background-color: #E7BA79;
+        margin: 4px 0;
+        border-radius: 100px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header h1 {
+        margin-top: 24.31vh;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    header h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* ------------ SECTION ATUAÇÃO ------------ */
+
+    .atuacao h1 {
+        color: #93A7A8;
+        font-size: 48px;
+    }
+
+    .civil, .trabalhista, .previdenciario {
+        display: block;
+        overflow: hidden;
+        margin-top: 25px;
+    }
+
+    .itens-p-ultimo {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    .texto p {
+        overflow: hidden;
+        font-size: 18px;
+        margin: 50px 0 80px 0;
+    }
+
+    .civil img {
+        margin-bottom: 10px;
+    }
+
+    .trabalhista img {
+        margin-bottom: 10px;
+    }
+
+    .previdenciario img {
+        margin-bottom: 10px;
+    }
+
+    /* ------------ SECTION ESCRITÓRIO ------------ */
+
+    .escritorio {
+        width: 100%;
+        height: 750px;
+        background-image: url('../images/fundo_escritorio.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .escritorio h1 {
+        color: #E7BA79;
+        overflow: hidden;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 6.25vh;
+        text-transform: uppercase;
+    }
+
+    #img-escritorio {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        left: 50%;
+        margin-left: -125px;
+        margin-top: 50px;
+        float: none;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .texto_escritorio {
+        width: 100%;
+        height: 324px;
+        overflow: hidden;
+        color: white;
+        margin: 50px 0 0 0;
+        font-size: 14px;
+        text-indent: 40px;
+        float: none;
+    }
+
+    .texto_escritorio p {
+        overflow: hidden;
+    }
+
+    /* ------------ SECTION Clientes ------------ */
+
+    .opinioes p {
+        overflow: hidden;
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    .cliente-1, .cliente-2, .cliente-3 {
+        display: inline-block;
+        overflow: hidden;
+        margin-top: 50px;
+        text-align: center;
+        width: 270px;
+    }
+
+
+    .cliente-1 {
+        width: 270px;
+        height: 445px;
+    }
+
+    .cliente-2 {
+        padding: 0;
+        width: 270px;
+        height: 415px;
+    }
+
+    .cliente-3 {
+        width: 270px;
+        height: 475px;
+    }
+
+}

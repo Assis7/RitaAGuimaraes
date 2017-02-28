@@ -1,0 +1,266 @@
+@import url(../assets/_inputs.css);
+
+.contato {
+    background: #22313F;
+    height: 550px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contato h1 {
+    color: #E7BA79;
+    font-size: 55px;
+    text-align: center;
+    margin: 6.25vh 0 75px 0;
+}
+
+.contatos {
+    margin: 0px 0 0 625px;
+    width: 490px
+}
+
+.contatos i{ 
+    font-size: 50px;
+    overflow: hidden;
+    color: #E7BA79;
+}
+
+.contatos p{
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+}
+
+.contatos-1{
+    width: 270px;
+    float: left;
+}
+
+.contatos-2{
+    width: 270px;
+}
+
+.endereco i{
+    margin: 0 25px 0 9px;
+}
+
+.endereco p{
+    margin: 2px 0 0 0;
+}
+
+.email i{
+    margin: 0 14px 0 0;
+}
+
+.email p{
+    margin: 18px 0 0 0;
+    width: 150px;
+}
+
+.telefone i{
+    margin: 0 14px 0 0;
+}
+
+.telefone p{
+    margin: 13px 0 0 0;
+    width: 110px;
+}
+
+.whats i{
+    margin: 18px 0 0 0; 
+}
+
+.whats p{
+    margin: 35px 0 0 53px;
+    width: 120px;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes i{
+    margin: 0 0 0 10px;
+}
+.endereco,
+.email,
+.telefone,
+.whats,
+.redes {
+    overflow: hidden;
+    margin: 0 0 40px 40px;
+}
+
+.endereco i,
+.email i,
+.telefone i,
+.whats i{
+    float: left;
+}
+
+@media screen and (max-width: 1126px) and (min-width: 768px) { /*LAPTOP*/
+    .contato h1 {
+        color: #E7BA79;
+        font-size: 55px;
+        text-align: center;
+        margin: 6.25vh 0 55px 0;
+    }
+    
+    .contatos {
+        margin: 0px 0 0 0;
+        width: 490px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 700px) { /*TABLET*/
+    .contato {
+        background: #22313F;
+        height: 510px;
+        width: 100%;
+    }
+    
+    .contatos {
+        margin: 0 0 0 0;
+        width: 300px
+    }
+    
+    .contatos i{ 
+       font-size: 40px;
+       overflow: hidden;
+       color: #E7BA79;
+    }
+    
+    .contatos-1{
+        width: 270px;
+        float: none;
+    }
+
+    .contatos-2{
+        width: 270px;
+    }
+    
+    .endereco,
+    .email,
+    .telefone,
+    .whats,
+    .redes {
+        overflow: hidden;
+        margin: 0 0 20px 40px;
+    }
+    
+    .email p{
+        margin: 13px 0 0 56px;
+        width: 150px;
+    }
+    
+    .telefone p{
+        margin: 11px 0 0 56px;
+        width: 110px;
+    }
+    
+    .whats i{
+        margin: 0 0 0 0; 
+    }
+    
+    .whats p{
+        margin: 11px 0 0 56px;
+        width: 120px;
+    }
+    
+    .redes {
+        margin: -7px 0 0 0;
+    }
+    .redes i{
+        font-size: 35px;
+        margin: 0 0 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 700px) { /*SMARTPHONE*/
+    .contato {
+        background: #22313F;
+        height: 750px;
+        width: 100%;
+    }
+    
+    .contatos {
+        margin: 35px 0 0 0;
+        width: 300px
+    }
+    
+    .contatos i{ 
+        font-size: 30px;
+        overflow: hidden;
+        color: #E7BA79;
+        width: 100px;
+    }
+    
+    .contatos p{
+        font-size: 14px;
+    }
+    
+    .contatos-1{
+        width: 270px;
+        float: none;
+    }
+
+    .contatos-2{
+        width: 270px;
+    }
+    
+    .endereco i,
+    .email i{ 
+        width: 32px;
+    }
+    
+    .endereco,
+    .email,
+    .telefone,
+    .whats,
+    .redes {
+        overflow: hidden;
+        margin: 0 0 10px 40px;
+    }
+    
+    .endereco i{
+        margin: 0 10px 0 7px;
+    }
+
+    .endereco p{
+        margin: 2px 0 0 0;
+    }
+
+    .email i{
+        margin: 0 14px 0 0;
+    }
+
+    .email p{
+        margin: 9px 0 0 49px;
+        width: 150px;
+    }
+
+    .telefone i{
+        margin: 0 14px 0 0;
+        width: 35px;
+    }
+
+    .telefone p{
+        margin: 7px 0 0 0;
+        width: 110px;
+    }
+
+    .whats i{
+        margin: 0 0 0 0;
+        width: 48px;
+    }
+
+    .whats p{
+        margin: 8px 0 0 0;
+        width: 120px;
+    }
+    
+    .redes i{
+        width: 40px;
+    }
+}
