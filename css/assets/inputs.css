@@ -49,7 +49,7 @@ form {
         margin: 0 0 0 0;
         width: 325px;
     }
-    
+
     .email-box input[type="text"],
     .email-box input[type="email"] {
         width: 309px;
@@ -63,11 +63,11 @@ form {
         padding-left: 10px;
         padding-top: 5px;
     }
-    
+
     .email-box a{
         text-decoration: none;
     }
-    
+
     .email-box i{
         color: white;
         text-align: center;
@@ -86,7 +86,7 @@ form {
         margin: 0 0 0 0;
         width: 294px;
     }
-    
+
     .email-box input[type="text"],
     .email-box input[type="email"] {
         width: 279px;
@@ -100,11 +100,11 @@ form {
         padding-left: 10px;
         padding-top: 5px;
     }
-    
+
     .email-box a{
         text-decoration: none;
     }
-    
+
     .email-box i{
         color: white;
         text-align: center;
@@ -124,7 +124,7 @@ form {
         width: 253px;
         float: none;
     }
-    
+
     .email-box input[type="text"],
     .email-box input[type="email"] {
         width: 239px;
@@ -138,11 +138,11 @@ form {
         padding-left: 10px;
         padding-top: 5px;
     }
-    
+
     .email-box a{
         text-decoration: none;
     }
-    
+
     .email-box i{
         color: white;
         text-align: center;

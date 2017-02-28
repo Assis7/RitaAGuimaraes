@@ -1,4 +1,4 @@
-@import url(../assets/_inputs.css);
+@import url(../assets/inputs.css);
 
 .contato {
     background: #22313F;
@@ -19,7 +19,7 @@
     width: 490px
 }
 
-.contatos i{ 
+.contatos i{
     font-size: 50px;
     overflow: hidden;
     color: #E7BA79;
@@ -67,7 +67,7 @@
 }
 
 .whats i{
-    margin: 18px 0 0 0; 
+    margin: 18px 0 0 0;
 }
 
 .whats p{
@@ -105,7 +105,7 @@
         text-align: center;
         margin: 6.25vh 0 55px 0;
     }
-    
+
     .contatos {
         margin: 0px 0 0 0;
         width: 490px;
@@ -118,18 +118,18 @@
         height: 510px;
         width: 100%;
     }
-    
+
     .contatos {
         margin: 0 0 0 0;
         width: 300px
     }
-    
-    .contatos i{ 
+
+    .contatos i{
        font-size: 40px;
        overflow: hidden;
        color: #E7BA79;
     }
-    
+
     .contatos-1{
         width: 270px;
         float: none;
@@ -138,7 +138,7 @@
     .contatos-2{
         width: 270px;
     }
-    
+
     .endereco,
     .email,
     .telefone,
@@ -147,26 +147,26 @@
         overflow: hidden;
         margin: 0 0 20px 40px;
     }
-    
+
     .email p{
         margin: 13px 0 0 56px;
         width: 150px;
     }
-    
+
     .telefone p{
         margin: 11px 0 0 56px;
         width: 110px;
     }
-    
+
     .whats i{
-        margin: 0 0 0 0; 
+        margin: 0 0 0 0;
     }
-    
+
     .whats p{
         margin: 11px 0 0 56px;
         width: 120px;
     }
-    
+
     .redes {
         margin: -7px 0 0 0;
     }
@@ -183,23 +183,23 @@
         height: 750px;
         width: 100%;
     }
-    
+
     .contatos {
         margin: 35px 0 0 0;
         width: 300px
     }
-    
-    .contatos i{ 
+
+    .contatos i{
         font-size: 30px;
         overflow: hidden;
         color: #E7BA79;
         width: 100px;
     }
-    
+
     .contatos p{
         font-size: 14px;
     }
-    
+
     .contatos-1{
         width: 270px;
         float: none;
@@ -208,12 +208,12 @@
     .contatos-2{
         width: 270px;
     }
-    
+
     .endereco i,
-    .email i{ 
+    .email i{
         width: 32px;
     }
-    
+
     .endereco,
     .email,
     .telefone,
@@ -222,7 +222,7 @@
         overflow: hidden;
         margin: 0 0 10px 40px;
     }
-    
+
     .endereco i{
         margin: 0 10px 0 7px;
     }
@@ -259,7 +259,7 @@
         margin: 8px 0 0 0;
         width: 120px;
     }
-    
+
     .redes i{
         width: 40px;
     }
